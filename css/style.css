@@ -97,6 +97,27 @@ header p {
   font-size: 1.4rem;
   line-height: 1.8;
 }
+@media (min-width: 900px) {
+  body {
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: max(50%, 200px);
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .rated {
+    flex-direction: row;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
+    column-gap: 3rem;
+  }
+}
 
 
 
