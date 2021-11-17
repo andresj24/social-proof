@@ -103,19 +103,58 @@ header p {
     background-position: top left, bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: max(50%, 200px);
+    background-size: max(35%, 200px);
   }
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .7fr 1fr;
+    padding: 0rem 10rem 0 10rem;
+    column-gap: 10rem;
+    text-align: start;
+    align-items: center;
+  }
+  .text {
+    padding-right: 4rem;
+  }
+  .text h1{
+    font-size: 4rem;
+  }
+  .text p {
+    margin-top: 1.5rem;
+  }
+  .starts {
+    margin-top: 0;
+    margin-left: 3rem;
   }
   .rated {
+    width: 45rem;
+    padding: 1.5rem 1rem 1.5rem 0;
     flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .rated p {
+    margin-top: 0;
+  }
+  .rated:nth-child(2) {
+    position: relative;
+    left: 4rem;
+  }
+  .rated:nth-child(3) {
+    position: relative;
+    left: 8rem;
   }
   .container {
     display: grid;
     grid-template-columns: repeat(3, 345px);
-    column-gap: 3rem;
+    column-gap: 3.7rem;
+    margin-top: 0;
+  }
+  .presentation h5, .box p{
+    font-size: 85%;
+  }
+  .box {
+    margin-top: 1.5rem;
+    padding: 3.5rem 2.5rem;
   }
 }
 
