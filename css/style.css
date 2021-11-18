@@ -97,13 +97,16 @@ header p {
   font-size: 1.4rem;
   line-height: 1.8;
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   body {
-    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
-    background-position: top left, bottom;
-    background-repeat: no-repeat;
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
     background-size: cover;
-    background-size: max(35%, 200px);
+    background-size: max(40%, 200px), max(65%, 200px);
   }
   header {
     display: grid;
@@ -156,14 +159,15 @@ header p {
     margin-top: 1.5rem;
     padding: 3.5rem 2.5rem;
   }
+  #second-box {
+    position: relative;
+    top: 1.5rem;
+  }
+  #third-box {
+    position: relative;
+    top: 3rem;
+  }
 }
-
-
-
-
-
-
-
 .attribution {
   margin-bottom: 0;
   font-size: 11px;
