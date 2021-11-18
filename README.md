@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![capture](./screenshot.jpg)
+![capture](https://github.com/andresj24/social-proof/blob/main/images/capture.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/andresj24/social-proof]
+- Live Site URL: [https://social-proof-aj96.netlify.app/]
 
 ## My process
 
@@ -51,8 +51,8 @@ Soon I will continue to practice the use of CSS and the different tools to layou
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@andresj24](https://www.frontendmentor.io/profile/andresj24)
+- Twitter - [@AndresitoJ96](https://twitter.com/AndresitoJ96)
 
 
 
