@@ -149,7 +149,7 @@ header p {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 345px);
-    column-gap: 3.7rem;
+    column-gap: 2.5rem;
     margin-top: 0;
   }
   .presentation h5, .box p{
